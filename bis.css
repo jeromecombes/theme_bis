@@ -1,0 +1,241 @@
+/*
+Planning Biblio, Version 1.7.8
+Licence GNU/GPL (version 2 et au dela)
+Voir les fichiers README.txt et COPYING.txt
+Copyright (C) 2011-2014 - Jérôme Combes
+
+Fichier : theme/bis/bis.css
+Création : 4 octobre 2013
+Dernière modification : 5 février 2014
+Auteur : Jérôme Combes, jerome@planningbilbio.fr
+
+Description :
+Feuille de style personnalisée BIS
+
+Incluse dans les fichiers include/header.php et setup/header.php
+*/
+
+/* Général */
+body,input,select,textarea,button,.text, #onglets a, #onglets #titre{
+  color:#222C2D;
+  font-family:Calibri;
+}
+
+body{
+  background:url("images/bg_menu.gif") repeat-x top;
+}
+
+a{
+  color:#148B91;
+}
+
+a:hover{
+  color:#222C2D;
+}
+
+#ferie,.ferie, .menuRed, a:hover.menuRed, a:hover.menu, .important {
+  color: #72162d;
+}
+
+.infobulle{
+  background-color: #148B91;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/* Tableaux */
+.th{
+  background-color:#155B6B;
+  color:#FFFFFF;
+}
+
+.tr1{
+  background-color:#C7E4E9;
+}
+
+/* Page d'authentification */
+#auth-logo {
+  width:220px;
+  height:55px;
+  margin:20px;
+  background:url("images/logo.png") no-repeat right top;
+}
+
+#auth, #auth input {
+  color:#148B91;
+}
+
+#h2-authentification{
+  display:none;
+}
+
+#title{
+  margin:0 0 60px 0;
+  font-family:Cambria;
+  font-size:21pt;
+}
+
+
+/* Entête */
+#logo {
+  left: 12px;
+  width:170px;
+  height:41px;
+  background:url("images/logo170.png") no-repeat right top;
+}
+
+/* Menu */
+td.menu_td:hover,td.menu_td2:hover{
+  background-color:#C7E4E9;
+}
+
+td.menu_td a,td.menu_td2 a{
+  color:#222C2D;
+}
+
+td.menu_td:hover{
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* Planning */
+.tr_horaires{
+  background-color: #155B6B;
+  height: 30px;
+}
+
+.td_obligatoire, .td_renfort{
+  font-size:10pt;
+}
+
+.td_obligatoire{
+  background:#C7E4E9;
+}
+
+.titreSemFixe{
+  color:#222C2D;
+}
+
+.tr_CategorieA td{
+ background:#6EAEB9;
+}
+
+.tr_CategorieA td.td_obligatoire{
+ background:#6EAEB9;
+}
+
+.tr_CategorieB td{
+ background:#99C4CA;
+}
+
+.tr_CategorieB td.td_obligatoire{
+ background:#99C4CA;
+}
+
+.tr_CategorieC td{
+ background:#BFDCE0;
+}
+
+.tr_CategorieC td.td_obligatoire{
+ background:#BFDCE0;
+}
+
+td.cellule_grise{
+  background:#DDDDDD;
+}
+
+.statut_moniteur, td.statut_moniteur{
+  background:yellow;
+}
+
+.statut_permanent, td.statut_permanent{
+  background:#FFFFFF;
+}
+
+.statut_conservateur, td.statut_conservateur{
+  background:#93E3FE;
+}
+
+.statut_bibliothecaire, td.statut_bibliothecaire{
+  background:#B18CFE;
+}
+
+.statut_ab, td.statut_ab{
+  background:#CCE8B5;
+}
+
+.statut_bas, td.statut_bas{
+  background:#FFB5AF;
+}
+
+.statut_magasinier, td.statut_magasinier{
+  background:#EBF38F;
+}
+
+.statut_etudiant, td.statut_etudiant{
+  background:#FFB43F;
+}
+
+.statut_contractuelle, td.statut_contractuelle{
+  background:#FF3300;
+}
+
+.statut_adjoint_administratif, td.statut_adjoint_administratif{
+  background:#00FFCC;
+}
+
+.statut_chef_de_travaux_dart, td.statut_chef_de_travaux_dart{
+  background:#00FFCC;
+}
+
+/* Calendrier */
+.calendar_body{
+  background:none;
+}
+
+.calendar_title,.calendar_title_month_clickable, .calendar_title_left_arrow_clickable, .calendar_title_right_arrow_clickable, 
+.calendar_table td, .calendar_table td, .calendar_day_clickable, .calendar_weekend_day_clickable, 
+.calendar_cell_footer_current_month_clickable, .calendar_footer_current_month_clickable, 
+.calendar_cell_footer_other_month_clickable, .calendar_footer_other_month_clickable{
+  color:#222C2D;
+}
+
+.calendar_table th {
+  background-color: #155B6B;
+  border: 1px solid #7C1172;
+  color: #FFFFFF;
+}
+
+.calendar_cell_weekend_today {
+  background-color: #96BF0D;
+}
+
+.calendar_cell_weekend_day, .calendar_cell_weekend_day_clickable {
+  background-color: #C7E4E9;
+}
+
+.calendar_cell_weekend_other_month, .calendar_cell_weekend_other_month_clickable {
+  background-color: #F2FBFF;
+}
+
+/* DataTables */
+.dataTable tbody tr.odd {
+  background-color:#D0EAEE;
+}
+
+.dataTable tbody tr.odd td.sorting_1,
+.dataTable tbody tr.odd td.sorting_2,
+.dataTable tbody tr.odd td.sorting_3{
+  background-color:#C7E4E9;
+}
+
+.dataTable tbody tr.even td.sorting_1,
+.dataTable tbody tr.even td.sorting_2,
+.dataTable tbody tr.even td.sorting_3{
+  background-color:#F2FBFF;
+}
+
+/* Pied de page */
+.footer, .footer a{
+  color:#858A89;
+}
