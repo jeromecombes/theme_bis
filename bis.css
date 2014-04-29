@@ -1,12 +1,12 @@
 /*
-Planning Biblio, Version 1.7.8
+Planning Biblio, Version 1.7.9
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
 Copyright (C) 2011-2014 - Jérôme Combes
 
 Fichier : theme/bis/bis.css
 Création : 4 octobre 2013
-Dernière modification : 5 février 2014
+Dernière modification : 29 avril 2014
 Auteur : Jérôme Combes, jerome@planningbilbio.fr
 
 Description :
@@ -186,6 +186,19 @@ td.cellule_grise{
 
 .statut_chef_de_travaux_dart, td.statut_chef_de_travaux_dart{
   background:#00FFCC;
+}
+
+/* Statistiques */
+#stat-col1{
+  width:410px;
+}
+
+#stat-col1 table, #stat-col1 input[type=text], #stat-col1 select{
+  width:100%;
+}
+
+#stat-col1 table{
+  padding-right: 30px;
 }
 
 /* Calendrier */
