@@ -6,7 +6,7 @@ Copyright (C) 2011-2014 - Jérôme Combes
 
 Fichier : theme/bis/bis.css
 Création : 4 octobre 2013
-Dernière modification : 29 avril 2014
+Dernière modification : 30 avril 2014
 Auteur : Jérôme Combes, jerome@planningbilbio.fr
 
 Description :
@@ -97,6 +97,68 @@ td.menu_td:hover{
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
+
+/*	Navigation par onglets			*/
+#onglets li {
+  background:url("images/norm_right.gif") no-repeat right top;
+}
+
+#onglets a {
+  background:url("images/norm_left.gif") no-repeat left top;
+}
+
+#onglets #current {
+  background-image:url("images/norm_right_on.gif");
+}
+
+#onglets #current a {
+  background-image:url("images/norm_left_on.gif");
+}
+
+#onglets {
+  background:#DAE0D2 url("images/bgOnglet.gif") repeat-x bottom;
+}
+
+#onglets a {
+  background:url("images/norm_left.gif") no-repeat left top;
+}
+
+#onglets #current a {
+  background-image:url("images/norm_left_on.gif");
+}
+
+#onglets li {
+  background:url("images/norm_right.gif") no-repeat right top;
+}
+
+#onglets a {
+  background:url("images/norm_left.gif") no-repeat left top;
+}
+
+#onglets li {
+  background:url("images/norm_left.gif") no-repeat left top;
+}
+
+#onglets a, #onglets strong, #onglets span {
+  background:url("images/norm_right.gif") no-repeat right top;
+}
+
+#onglets #current {
+  background-image:url("images/norm_left_on.gif");
+}
+
+#onglets #current a {
+  background-image:url("images/norm_right_on.gif");
+}
+
+#onglets a {
+  background:url("images/norm_right.gif") no-repeat right top;
+}
+
+#onglets a {
+  background:url("images/norm_right.gif") no-repeat right top;
+}
+/*		Fin navigation par onglets		*/	
 
 /* Planning */
 .tr_horaires{
