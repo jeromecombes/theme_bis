@@ -1,12 +1,12 @@
 /*
-Planning Biblio, Version 1.7.9
+Planning Biblio, Version 1.8.1
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
 Copyright (C) 2011-2014 - Jérôme Combes
 
 Fichier : theme/bis/bis.css
 Création : 4 octobre 2013
-Dernière modification : 30 avril 2014
+Dernière modification : 13 juin 2014
 Auteur : Jérôme Combes, jerome@planningbilbio.fr
 
 Description :
@@ -261,36 +261,6 @@ td.cellule_grise{
 
 #stat-col1 table{
   padding-right: 30px;
-}
-
-/* Calendrier */
-.calendar_body{
-  background:none;
-}
-
-.calendar_title,.calendar_title_month_clickable, .calendar_title_left_arrow_clickable, .calendar_title_right_arrow_clickable, 
-.calendar_table td, .calendar_table td, .calendar_day_clickable, .calendar_weekend_day_clickable, 
-.calendar_cell_footer_current_month_clickable, .calendar_footer_current_month_clickable, 
-.calendar_cell_footer_other_month_clickable, .calendar_footer_other_month_clickable{
-  color:#222C2D;
-}
-
-.calendar_table th {
-  background-color: #155B6B;
-  border: 1px solid #7C1172;
-  color: #FFFFFF;
-}
-
-.calendar_cell_weekend_today {
-  background-color: #96BF0D;
-}
-
-.calendar_cell_weekend_day, .calendar_cell_weekend_day_clickable {
-  background-color: #C7E4E9;
-}
-
-.calendar_cell_weekend_other_month, .calendar_cell_weekend_other_month_clickable {
-  background-color: #F2FBFF;
 }
 
 /* DataTables */
