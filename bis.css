@@ -1,13 +1,13 @@
 /*
-Planning Biblio, Version 1.9.5
+Planning Biblio, Version 2.3
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
-Copyright (C) 2011-2015 - Jérôme Combes
+@copyright 2011-2016 Jérôme Combes
 
 Fichier : theme/bis/bis.css
 Création : 4 octobre 2013
-Dernière modification : 13 avril 2015
-Auteur : Jérôme Combes, jerome@planningbilbio.fr
+Dernière modification : 24 mars 2016
+@author Jérôme Combes <jerome@planningbiblio.fr>
 
 Description :
 Feuille de style personnalisée BIS
@@ -79,7 +79,7 @@ a:hover{
 }
 
 /* Menu */
-td.menu_td:hover,td.menu_td2:hover{
+td.menu_td2:hover{
   background-color:#C7E4E9;
 }
 
@@ -87,10 +87,13 @@ td.menu_td a,td.menu_td2 a{
   color:#222C2D;
 }
 
-td.menu_td:hover{
+li.menu_li:hover {
+  background:#C7E4E9;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
+
+
 
 /* Planning */
 .tr_horaires, .tr_separation{
