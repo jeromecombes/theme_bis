@@ -1,13 +1,13 @@
-/*
-Planning Biblio, Version 2.3
+/**
+Planning Biblio, Version 19.10
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
-@copyright 2011-2016 Jérôme Combes
+@copyright 2011-2019 Jérôme Combes
 
 Fichier : theme/bis/bis.css
 Création : 4 octobre 2013
-Dernière modification : 24 mars 2016
-@author Jérôme Combes <jerome@planningbiblio.fr>
+Dernière modification : 8 novembre 2019
+@author Jérôme Combes <jerome@planningbilbio.fr>
 
 Description :
 Feuille de style personnalisée BIS
@@ -79,7 +79,7 @@ a:hover{
 }
 
 /* Menu */
-td.menu_td2:hover{
+td.menu_td:hover,td.menu_td2:hover{
   background-color:#C7E4E9;
 }
 
@@ -87,13 +87,12 @@ td.menu_td a,td.menu_td2 a{
   color:#222C2D;
 }
 
-li.menu_li:hover {
-  background:#C7E4E9;
+li.menu_li:hover,
+td.menu_td:hover{
+  /*background:#C7E4E9;*/
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-
-
 
 /* Planning */
 .tr_horaires, .tr_separation{
@@ -137,6 +136,11 @@ li.menu_li:hover {
  background:#BFDCE0;
 }
 
+/* Ajout BIS 10 04 2015 TR de separation */
+.tr_separation{
+ background:#155b6b;
+}
+
 td.cellule_grise{
   background:#DDDDDD;
 }
@@ -167,6 +171,15 @@ td.cellule_grise{
 
 .statut_magasinier, td.statut_magasinier{
   background:#EBF38F;
+}
+/* Ajout BIS 16 05 2014 mag conservation */
+.statut_magasinier_conservation, td.statut_magasinier_conservation{
+  background:#f2a64c;
+}
+
+/* Ajout BIS 16 05 2014 mag conservation */
+.statut_magasinier_ddc, td.statut_magasinier_ddc {
+  background:#b2f38f;
 }
 
 .statut_etudiant, td.statut_etudiant{
@@ -219,3 +232,9 @@ td.cellule_grise{
 .footer, .footer a{
   color:#858A89;
 }
+
+/* Notes affichées en bas des plannings Modifie BIS 10 04 2015*/
+#pl-notes-div1, .pl-notes-div1{
+  margin: 20px 0 0 0;
+  font-size:18pt;
+  }
